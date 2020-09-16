@@ -3,7 +3,7 @@ const zlib = require('zlib')
 
 const hsv = require('rgb-hsv')
 
-var circleCount = require("./data.json").circle_count;
+var circleCount = require("./config.json").circle_count;
 
 const { Geometrize } = require('geometrizejs-extra');
 const { Bitmap, ImageRunner, ShapeTypes } = require('geometrizejs');
@@ -36,8 +36,8 @@ var getData = new Promise ( (res, rej) => {
     res(data);
 })})
 
-var render_mode = require("./data.json").RENDER_MODE;
-var offsetx = require("./data.json").offsetX;
+var render_mode = require("./config.json").RENDER_MODE;
+var offsetx = require("./config.json").offsetX;
 let index = 0;
 
 if(render_mode == true) {

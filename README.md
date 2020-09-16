@@ -18,3 +18,6 @@
 4. Загрузите изображение в папку Image (./image/your_image.(png | jpg | jpeg | bmp))
 5. Запустите start.bat
 6. Готово!
+
+#Автор
+Дискорд - LEON#3666

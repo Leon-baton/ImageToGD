@@ -9,7 +9,6 @@
   "license": "ISC",
   "dependencies": {
     "geometrizejs-extra": "0.0.2",
-    "jimp": "^0.16.1",
     "node-pre-gyp": "^0.15.0",
     "rgb-hsv": "^1.0.0"
   },

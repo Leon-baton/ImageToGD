@@ -36,13 +36,11 @@ var getData = new Promise ( (res, rej) => {
     res(data);
 })})
 
-var render_mode = require("./config.json").RENDER_MODE;
 var offsetx = require("./config.json").offsetX;
 let index = 0;
 
-if(render_mode == true) {
-    (async () => {
-        process.stdout.write("...");
+(async () => {
+    process.stdout.write("...");
         const job = new Geometrize({
             input: `image/${f}`,
             output: `temp/image.json`,
@@ -58,9 +56,9 @@ if(render_mode == true) {
               process.stdout.write(`\rШаг: ${index}/${circleCount}`)
             }
           })
-        await job.start()
-    })()
-}
+    await job.start()
+})()
+
 getData.then(data => {
     var lvl = data.match("<k>k4</k><s>(.*)</s>")[0].replace("<k>k4</k><s>", "").split("</s><k>k5</k>")[0]
     

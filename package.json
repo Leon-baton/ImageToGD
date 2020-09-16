@@ -1,5 +1,5 @@
 {
-  "name": "gd-tools",
+  "name": "ImageToGD",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Leon",
@@ -15,5 +15,8 @@
   },
   "devDependencies": {
     "jest-canvas-mock": "^2.2.0"
+  }
+  "repository": {
+    "url" : "https://github.com/Leon-baton/ImageToGD"
   }
 }

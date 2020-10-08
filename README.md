@@ -19,15 +19,5 @@
 5. Запустите start.bat
 6. Готово!
 
-# Пример изображения
-Оригинал:
-
-![Before](https://sun9-72.userapi.com/OTBocIA63hhuFwmCmM8HNcqUoT3odQPnkJCtYQ/yVaWdP3a7LY.jpg)
-
-Объектов [300]
-
-![After](https://sun9-43.userapi.com/4AP_QwEzCnEe_0xfKOk4pTun77eqsJC1VLvBUQ/5mElw4i-Iko.jpg)
-![After](https://sun9-56.userapi.com/w8kDBgGzP1lEaWwQD7uB6-1ctwXRyNC06MEaUA/qu32912Upik.jpg)
-
 # Автор
 Дискорд - LEON#3666

@@ -30,7 +30,7 @@ var getData = new Promise ( (res, rej) => {
         fs.readFile(level, 'utf8', function(err, data) {
                 if (err) return console.log("Файл \"CCLocalLevels.dat\", не существует!");
                 if (!data.startsWith('<?xml version="1.0"?>')) {
-                        data = xor(data, 11);;
+                        data = xor(data, 11);
                         data = Buffer.from(data, 'base64');
                         try { 
                                 data = zlib.unzipSync(data).toString();

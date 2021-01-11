@@ -1,3 +1,5 @@
+process.title = "Importing image to level | Geometry Dash"
+
 const fs = require('fs');
 const zlib = require('zlib');
 const hsv = require('rgb-hsv');
@@ -90,13 +92,12 @@ getData.then(data => {
         
         image.forEach((img)=>{
                 let colorID = 20 + Math.round((img.color[3] / 255) * 100) || 70;
-                var size = ((img.data[2] * scale) / 4);
+                var size = ((img.data[2] * 1) / 4);
                 let color = hsv(img.color[0], img.color[1], img.color[2]);
-                var scale = 1;
                 
                 lvlStr += `1,1764,` +
-                `2,${(img.data[0] * scale) + offsetx},` +
-                `3,${0 + (128 - (img.data[1] * scale))},` +
+                `2,${(img.data[0] * 1) + offsetx},` +
+                `3,${0 + (128 - (img.data[1] * 1))},` +
                 `21,${colorID},32,${size},41,1,43,` +
                 `${map(color[0], 0, 360, -180, 180)}a` +
                 `${map(color[1], 0, 100, 0, 1)}a` +

@@ -4,7 +4,7 @@
 1. Установите Node.js (https://nodejs.org/ru/)
 2. Откройте Install.bat и подождите до закрытия файла
 3. Вы можете изменить конфиг изображения (./config.json)
-  ```js
+  ```json
   {
       "circle_count": <Number>,
       "offsetX": <Number>

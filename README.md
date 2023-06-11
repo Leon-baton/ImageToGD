@@ -6,8 +6,8 @@
 3. Вы можете изменить конфиг изображения (./config.json)
   ```json
   {
-      "circle_count": <Number>,
-      "offsetX": <Number>
+      "circle_count": 300,
+      "offsetX": 0
   }
   ```
   "circle_count": <Количество кружков> - чем больше тем лучше видно изображение, Default: 300
